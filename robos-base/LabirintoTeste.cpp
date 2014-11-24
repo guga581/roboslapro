@@ -1,5 +1,9 @@
 #include "LabirintoTeste.h"
 #include <iostream>
+#include <cstdlib>
+#include <fstream>
+#include <string>
+#include <sstream>
 
 LabirintoTeste :: LabirintoTeste() {
 }
@@ -7,20 +11,36 @@ LabirintoTeste :: LabirintoTeste() {
 // Deveria carregar o labirinto de um arquivo,
 // aqui so gera um espaco fechado, com uma saida na parte de baixo
 void LabirintoTeste :: loadMaze(string arquivo) {
-    dimx = 20; dimy = 20;
-    for(int i=0; i<dimy; i++)
-        for(int j=0; j<dimx; j++)
-            lab[i][j] = ' ';
-    for(int i=0; i<dimx; i++)
+    ifstream arq;
+
+    arq.open(arquivo.c_str(), ios::in);
+    if (!arq.is_open())
+        return;
+    string aux, antesmatriz;
+    ostringstream junta;
+    int linha, coluna, pontox, pontoy, robo, x=0;
+    arq >> aux >> linha >> coluna >> aux >> pontox >> pontoy >> aux >> robo;
+    dimx=coluna;
+    dimy=linha;
+    getline(arq, aux);
+    for(int i=0; i<linha; i++)
     {
-        lab[0][i] = '*';
-        lab[dimy-1][i] = '*';
-        lab[i][0] = '*';
-        lab[i][dimx-1] = '*';
+        getline(arq, aux);
+        junta << aux;
     }
-    lab[dimy-2][dimx-1] = ' '; // saida
-    robot = 1;
-    posIni = Point(1,1);
+    antesmatriz = junta.str();
+    antesmatriz.c_str();
+    for(int i=0; i<linha; i++)
+    {
+        for(int j=0; j<coluna; j++)
+        {
+            lab[i][j] = antesmatriz[x];
+            x++;
+        }
+    }
+    arq.close();
+    robot = robo;
+    posIni = Point(pontox, pontoy);
 }
 
 // Retorna true se a posição x,y do labirinto

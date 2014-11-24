@@ -14,7 +14,7 @@
 	"Robo.h"
 	"Texture.h"
 
-1294788770 /usr/include/stdlib.h
+1381553386 /usr/include/stdlib.h
 	<features.h>
 	<stddef.h>
 	<bits/waitflags.h>
@@ -22,47 +22,51 @@
 	<xlocale.h>
 	<sys/types.h>
 	<alloca.h>
+	<bits/stdlib-float.h>
 	<bits/stdlib.h>
 	<bits/stdlib-ldbl.h>
 
-1294788727 /usr/include/features.h
-	<bits/predefs.h>
+1381553367 /usr/include/features.h
+	<stdc-predef.h>
 	<sys/cdefs.h>
 	<gnu/stubs.h>
 
-1294788727 /usr/include/bits/predefs.h
+1381553367 /usr/include/bits/predefs.h
 
-1294788795 /usr/include/sys/cdefs.h
+1381553393 /usr/include/sys/cdefs.h
 	<features.h>
 	<bits/wordsize.h>
 
-1294788770 /usr/include/bits/wordsize.h
+1381553387 /usr/include/bits/wordsize.h
 
-1294788727 /usr/include/gnu/stubs.h
-	<bits/wordsize.h>
+1381553367 /usr/include/gnu/stubs.h
 	<gnu/stubs-32.h>
 	<gnu/stubs-64.h>
+	<gnu/stubs-x32.h>
 
-1294788199 /usr/include/gnu/stubs-32.h
+1381553491 /usr/include/gnu/stubs-32.h
 
-1294788789 /usr/include/bits/waitflags.h
+1381553392 /usr/include/bits/waitflags.h
 
-1294788789 /usr/include/bits/waitstatus.h
+1381553392 /usr/include/bits/waitstatus.h
 	<endian.h>
 
-1294788778 /usr/include/endian.h
+1381553389 /usr/include/endian.h
 	<features.h>
 	<bits/endian.h>
 	<bits/byteswap.h>
 
-1294788778 /usr/include/bits/endian.h
+1381553389 /usr/include/bits/endian.h
 
-1294788778 /usr/include/bits/byteswap.h
+1381553389 /usr/include/bits/byteswap.h
+	<features.h>
+	<bits/types.h>
 	<bits/wordsize.h>
+	<bits/byteswap-16.h>
 
-1294788730 /usr/include/xlocale.h
+1381553368 /usr/include/xlocale.h
 
-1294788788 /usr/include/sys/types.h
+1381553392 /usr/include/sys/types.h
 	<features.h>
 	<bits/types.h>
 	<time.h>
@@ -72,14 +76,14 @@
 	<sys/sysmacros.h>
 	<bits/pthreadtypes.h>
 
-1294788788 /usr/include/bits/types.h
+1381553392 /usr/include/bits/types.h
 	<features.h>
 	<bits/wordsize.h>
 	<bits/typesizes.h>
 
-1294788789 /usr/include/bits/typesizes.h
+1381553392 /usr/include/bits/typesizes.h
 
-1294788784 /usr/include/time.h
+1381553390 /usr/include/time.h
 	<features.h>
 	<stddef.h>
 	<bits/time.h>
@@ -90,56 +94,59 @@
 	<bits/types.h>
 	<xlocale.h>
 
-1294788784 /usr/include/bits/time.h
+1381553390 /usr/include/bits/time.h
 	<bits/types.h>
 	<bits/types.h>
+	<bits/timex.h>
 
-1294788795 /usr/include/sys/select.h
+1381553394 /usr/include/sys/select.h
 	<features.h>
 	<bits/types.h>
 	<bits/select.h>
 	<bits/sigset.h>
 	<time.h>
 	<bits/time.h>
+	<bits/select2.h>
 
-1294788795 /usr/include/bits/select.h
+1381553394 /usr/include/bits/select.h
 	<bits/wordsize.h>
 
-1294788769 /usr/include/bits/sigset.h
+1381553386 /usr/include/bits/sigset.h
 
-1294788789 /usr/include/sys/sysmacros.h
+1381553392 /usr/include/sys/sysmacros.h
 	<features.h>
 
-1294788789 /usr/include/bits/pthreadtypes.h
+1381553392 /usr/include/bits/pthreadtypes.h
 	<bits/wordsize.h>
 
-1294788770 /usr/include/alloca.h
+1381553387 /usr/include/alloca.h
 	<features.h>
 	<stddef.h>
 
-1294788770 /usr/include/bits/stdlib.h
+1381553386 /usr/include/bits/stdlib.h
 
-1294788770 /usr/include/bits/stdlib-ldbl.h
+1381553386 /usr/include/bits/stdlib-ldbl.h
 
-1263839506 /usr/include/GL/glut.h
+1370385653 /usr/include/GL/glut.h
 	"freeglut_std.h"
 
-1263839506 /usr/include/GL/freeglut_std.h
-	<Windows.h>
+1370385653 /usr/include/GL/freeglut_std.h
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
 	<GL/gl.h>
 	<GL/glu.h>
 	<stdlib.h>
 
-1285865967 /usr/include/GL/gl.h
+1381415960 /usr/include/GL/gl.h
 	"gl_mangle.h"
 	<stdlib.h>
 	<windows.h>
-	<GL/mesa_wgl.h>
 	<GL/glext.h>
 
-1285865967 /usr/include/GL/gl_mangle.h
+1381415960 /usr/include/GL/gl_mangle.h
 
-1285865967 /usr/include/GL/glext.h
+1381415960 /usr/include/GL/glext.h
 	<windows.h>
 	<stddef.h>
 	<inttypes.h>
@@ -149,23 +156,23 @@
 	<stdint.h>
 	<inttypes.h>
 
-1294788770 /usr/include/inttypes.h
+1381553386 /usr/include/inttypes.h
 	<features.h>
 	<stdint.h>
 	<stddef.h>
 
-1294788770 /usr/include/stdint.h
+1381553387 /usr/include/stdint.h
 	<features.h>
 	<bits/wchar.h>
 	<bits/wordsize.h>
 
-1294788779 /usr/include/bits/wchar.h
+1381553390 /usr/include/bits/wchar.h
 
-1285865964 /usr/include/GL/glu.h
+1377762949 /usr/include/GL/glu.h
 	"glu_mangle.h"
 	<GL/gl.h>
 
-1285865964 /usr/include/GL/glu_mangle.h
+1377762949 /usr/include/GL/glu_mangle.h
 
 1320013431 /home/facin/Downloads/robos-base/Labirinto.h
 	"Point.h"
@@ -185,7 +192,7 @@
 	<GL/freeglut.h>
 	<jpeglib.h>
 
-1294788773 /usr/include/stdio.h
+1381553388 /usr/include/stdio.h
 	<features.h>
 	<stddef.h>
 	<bits/types.h>
@@ -198,7 +205,7 @@
 	<bits/stdio2.h>
 	<bits/stdio-ldbl.h>
 
-1294788773 /usr/include/libio.h
+1381553388 /usr/include/libio.h
 	<_G_config.h>
 	<stdarg.h>
 	<sys/cdefs.h>
@@ -206,13 +213,13 @@
 	<shlib-compat.h>
 	<bits/libio-ldbl.h>
 
-1294788773 /usr/include/_G_config.h
+1381553388 /usr/include/_G_config.h
 	<bits/types.h>
 	<stddef.h>
 	<wchar.h>
 	<gconv.h>
 
-1294788779 /usr/include/wchar.h
+1381553390 /usr/include/wchar.h
 	<features.h>
 	<stdio.h>
 	<stdarg.h>
@@ -226,27 +233,27 @@
 	<bits/wchar2.h>
 	<bits/wchar-ldbl.h>
 
-1294788800 /usr/include/wctype.h
+1381553395 /usr/include/wctype.h
 	<features.h>
 	<bits/types.h>
 	<wchar.h>
 	<endian.h>
 	<xlocale.h>
 
-1294788779 /usr/include/bits/wchar2.h
+1381553390 /usr/include/bits/wchar2.h
 
-1294788779 /usr/include/bits/wchar-ldbl.h
+1381553390 /usr/include/bits/wchar-ldbl.h
 
-1294788729 /usr/include/gconv.h
+1381553367 /usr/include/gconv.h
 	<features.h>
 	<wchar.h>
 	<stddef.h>
 
-1294788773 /usr/include/bits/stdio-lock.h
+1381553388 /usr/include/bits/stdio-lock.h
 	<bits/libc-lock.h>
 	<lowlevellock.h>
 
-1294788727 /usr/include/bits/libc-lock.h
+1381553367 /usr/include/bits/libc-lock.h
 	<pthread.h>
 	<stddef.h>
 	<lowlevellock.h>
@@ -254,9 +261,9 @@
 	<pthread-functions.h>
 	<errno.h>
 	<gnu/option-groups.h>
-	<bp-sym.h>
+	"libc-lockP.h"
 
-1294788809 /usr/include/pthread.h
+1381553399 /usr/include/pthread.h
 	<features.h>
 	<endian.h>
 	<sched.h>
@@ -265,66 +272,67 @@
 	<bits/setjmp.h>
 	<bits/wordsize.h>
 
-1294788789 /usr/include/sched.h
+1381553392 /usr/include/sched.h
 	<features.h>
 	<bits/types.h>
 	<stddef.h>
 	<time.h>
 	<bits/sched.h>
 
-1294788789 /usr/include/bits/sched.h
+1381553392 /usr/include/bits/sched.h
 
-1294788767 /usr/include/bits/setjmp.h
+1381553386 /usr/include/bits/setjmp.h
 	<bits/wordsize.h>
 
-1294788770 /usr/include/errno.h
+1381553387 /usr/include/errno.h
 	<features.h>
 	<bits/errno.h>
 
-1294788770 /usr/include/bits/errno.h
+1381553387 /usr/include/bits/errno.h
 	<linux/errno.h>
 
-1291278661 /usr/include/linux/errno.h
+1384279403 /usr/include/linux/errno.h
 	<asm/errno.h>
 
-1291278664 /usr/include/asm/errno.h
+1384279406 /usr/include/asm/errno.h
 	<asm-generic/errno.h>
 
-1291278658 /usr/include/asm-generic/errno.h
+1384279400 /usr/include/asm-generic/errno.h
 	<asm-generic/errno-base.h>
 
-1291278658 /usr/include/asm-generic/errno-base.h
+1384279400 /usr/include/asm-generic/errno-base.h
 
-1294788835 /usr/include/gnu/option-groups.h
+1381553408 /usr/include/gnu/option-groups.h
 
-1294788773 /usr/include/bits/libio-ldbl.h
+1381553388 /usr/include/bits/libio-ldbl.h
 
-1294788772 /usr/include/bits/stdio_lim.h
+1381553387 /usr/include/bits/stdio_lim.h
 
-1294788773 /usr/include/bits/sys_errlist.h
+1381553388 /usr/include/bits/sys_errlist.h
 
-1294788788 /usr/include/getopt.h
+1381553392 /usr/include/getopt.h
 	<ctype.h>
 
-1294788760 /usr/include/ctype.h
+1381553383 /usr/include/ctype.h
 	<features.h>
 	<bits/types.h>
 	<endian.h>
 	<xlocale.h>
 
-1294788773 /usr/include/bits/stdio.h
+1381553388 /usr/include/bits/stdio.h
 
-1294788773 /usr/include/bits/stdio2.h
+1381553388 /usr/include/bits/stdio2.h
 
-1294788773 /usr/include/bits/stdio-ldbl.h
+1381553388 /usr/include/bits/stdio-ldbl.h
 
-1263839506 /usr/include/GL/freeglut.h
+1370385653 /usr/include/GL/freeglut.h
 	"freeglut_std.h"
 	"freeglut_ext.h"
 
-1263839506 /usr/include/GL/freeglut_ext.h
+1370385653 /usr/include/GL/freeglut_ext.h
+	<stdarg.h>
 
-1273420340 /usr/include/jpeglib.h
+1375029476 /usr/include/jpeglib.h
 	"jconfig.h"
 	"jmorecfg.h"
 	"jpegint.h"
@@ -332,11 +340,11 @@
 
 1273420340 /usr/include/jconfig.h
 
-1273420340 /usr/include/jmorecfg.h
+1375029476 /usr/include/jmorecfg.h
 
-1273420340 /usr/include/jpegint.h
+1301374883 /usr/include/jpegint.h
 
-1273420340 /usr/include/jerror.h
+1375029476 /usr/include/jerror.h
 
 1320027135 source:/home/facin/Downloads/robos-base/LabirintoTeste.cpp
 	"LabirintoTeste.h"
@@ -364,7 +372,7 @@
 	<vector>
 	"Texture.h"
 
-1294788764 /usr/include/math.h
+1381553385 /usr/include/math.h
 	<features.h>
 	<bits/huge_val.h>
 	<bits/huge_valf.h>
@@ -376,28 +384,27 @@
 	<bits/mathcalls.h>
 	<bits/mathcalls.h>
 	<bits/mathinline.h>
+	<bits/math-finite.h>
 
-1294788764 /usr/include/bits/huge_val.h
+1381553385 /usr/include/bits/huge_val.h
 	<endian.h>
 
-1294788764 /usr/include/bits/huge_valf.h
+1381553385 /usr/include/bits/huge_valf.h
 
-1294788764 /usr/include/bits/huge_vall.h
+1381553385 /usr/include/bits/huge_vall.h
 
-1294788764 /usr/include/bits/inf.h
+1381553385 /usr/include/bits/inf.h
 
-1294788764 /usr/include/bits/nan.h
+1381553385 /usr/include/bits/nan.h
 	<endian.h>
 
-1294788765 /usr/include/bits/mathdef.h
-	<bits/wordsize.h>
+1381553385 /usr/include/bits/mathdef.h
 
-1294788764 /usr/include/bits/mathcalls.h
+1381553385 /usr/include/bits/mathcalls.h
 
-1294788764 /usr/include/bits/mathinline.h
-	<bits/wordsize.h>
+1381553385 /usr/include/bits/mathinline.h
 
-1294788778 /usr/include/string.h
+1381553389 /usr/include/string.h
 	<features.h>
 	<stddef.h>
 	<xlocale.h>
@@ -405,17 +412,103 @@
 	<bits/string2.h>
 	<bits/string3.h>
 
-1294788778 /usr/include/bits/string.h
+1381553389 /usr/include/bits/string.h
 
-1294788778 /usr/include/bits/string2.h
+1381553389 /usr/include/bits/string2.h
 	<endian.h>
 	<bits/types.h>
 	<stdlib.h>
 
-1294788778 /usr/include/bits/string3.h
+1381553389 /usr/include/bits/string3.h
 
 1320027502 source:/home/facin/Downloads/robos-base/main.cpp
 	"LabirintoTeste.h"
 	"RoboB9.h"
 	"GL.h"
+
+1320060104 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/GL.cpp
+	"GL.h"
+	<sstream>
+
+1320060022 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/GL.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1381553367 /usr/include/stdc-predef.h
+	<bits/predefs.h>
+
+1381553413 /usr/include/gnu/stubs-64.h
+
+1381553565 /usr/include/gnu/stubs-x32.h
+
+1381553389 /usr/include/bits/byteswap-16.h
+
+1381553390 /usr/include/bits/timex.h
+	<bits/types.h>
+
+1381553394 /usr/include/bits/select2.h
+
+1381553386 /usr/include/bits/stdlib-float.h
+
+1320013432 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Labirinto.h
+	"Point.h"
+	<string>
+
+1320013446 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Point.h
+
+1320013830 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Robo.h
+	<vector>
+	"Point.h"
+
+1320024114 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1416839688 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/main.cpp
+	"LabirintoTeste.h"
+	"RoboB9.h"
+	"GL.h"
+
+1320026578 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/LabirintoTeste.h
+	<fstream>
+	"Labirinto.h"
+
+1320025878 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboB9.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1320027304 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboB9.cpp
+	"RoboB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1320024172 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
+1381553385 /usr/include/bits/math-finite.h
+
+1416839361 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/LabirintoTeste.cpp
+	"LabirintoTeste.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sstream>
 
