@@ -1,5 +1,6 @@
 #include "LabirintoTeste.h"
 #include "RoboB9.h"
+#include "RoboC3PO.h"
 #include "GL.h"
 
 using namespace std;
@@ -9,7 +10,7 @@ int main()
     GL::init();
     // Carga do labirinto
     Labirinto* lab = new LabirintoTeste();
-    lab->loadMaze("labirinto2.txt");
+    lab->loadMaze("labirinto.txt");
 
     Point posIni = lab->getIniPos();
     cout << "Pos ini: " << posIni.getX() << " , " << posIni.getY() << endl;
