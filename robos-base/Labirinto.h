@@ -15,7 +15,6 @@ class Labirinto
     public:
 
     virtual bool isEmpty(const Point& ponto) const = 0;
-    virtual char get_matriz(int x, int y)=0;
 	virtual int  getWidth() = 0;
 	virtual int  getHeight() = 0;
     virtual int  getRobot() = 0;

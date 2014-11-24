@@ -11,7 +11,7 @@ using namespace std;
 
 class Robo
 {
-public:
+    public:
 
     Robo(const Point& posIni, Labirinto* lab, int maxSteps)
     {
@@ -19,23 +19,17 @@ public:
         this->lab = lab;
         this->maxSteps = maxSteps;
     }
-    virtual void draw() = 0;
-    void move(const Point &pos)
-    {
-        this->pos = pos;
-    }
-    virtual void generateSteps() = 0;
-    vector<Point> getSteps()
-    {
-        return steps;
-    }
+	virtual void draw() = 0;
+    void move(const Point &pos) { this->pos = pos; }
+	virtual void generateSteps() = 0;
+	vector<Point> getSteps() { return steps; }
 
-protected:
+    protected:
 
     Point posIni, pos;
     Labirinto* lab;
     int maxSteps;
-    vector<Point> steps;
+	vector<Point> steps;
 };
 
 #endif

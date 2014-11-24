@@ -14,7 +14,7 @@
 #endif
 
 extern "C" {
-#include <jpeglib.h>
+	#include <jpeglib.h>
 }
 
 #ifndef M_PI
@@ -25,11 +25,11 @@ extern "C" {
 typedef struct
 {
     char nome[50];	// nome do arquivo carregado
-    int ncomp;		// número de componentes na textura (1-intensidade, 3-RGB)
-    GLint dimx;		// largura
-    GLint dimy;		// altura
+	int ncomp;		// número de componentes na textura (1-intensidade, 3-RGB)
+	GLint dimx;		// largura 
+	GLint dimy;		// altura
     GLuint texid;	// identifição da textura em OpenGL
-    unsigned char *data;	// apontador para a imagem em si
+	unsigned char *data;	// apontador para a imagem em si
 } TEX;
 
 // Funções para liberação de memória
