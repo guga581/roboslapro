@@ -7,48 +7,24 @@
 
 using namespace std;
 
-RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps)
-    : Robo(posIni, l, maxSteps)
+RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l)
+    : Robo(posIni, l, NULL)
 {
     srand(time(NULL));
-<<<<<<< HEAD
-    roboTex = CarregaTextura("b9.jpg", false);
-    dirInicial = 0;
-=======
     roboTex = CarregaTextura("r2.jpg", false);
->>>>>>> 491a9608ced5ce3eeb076350667a9e4351f9a69f
 }
 
 void RoboR2D2::generateSteps()
 {
-    int cont = 1;
     bool saiu = false;
     int x = posIni.getX();
     int y = posIni.getY();
     steps.push_back(Point(x,y));
     int dx, dy;
-<<<<<<< HEAD
-    int pontx,ponty;
-    dx = x;
-    dy = y;
-    while(!saiu && cont < maxSteps)
-    {
-        if((!lab->isEmpty(Point(dx-1, dy))))
-        {
-            dx-=1;
-            steps.push_back(Point(dx,dy));
-            pontx=-1;
-            ponty=0;
-        }
-
-        if(dx >= lab->getWidth() || dx < 0
-                || dy >= lab->getHeight() || dy < 0)
-        saiu = true;
-=======
     dx = x;
     dy = y;
     dirInicial = 0;
-    while(!saiu && cont < maxSteps)
+    while(!saiu)
     {
 
             switch (dirInicial)
@@ -58,7 +34,7 @@ void RoboR2D2::generateSteps()
                 if(lab->isEmpty(Point(dx+1, dy))) {
                         dx+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                         dirInicial=1;}
                 else
                 {
@@ -67,7 +43,7 @@ void RoboR2D2::generateSteps()
                     {
                         dy+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     }
                 }
                 break;
@@ -76,7 +52,7 @@ void RoboR2D2::generateSteps()
                 if(lab->isEmpty(Point(dx, dy-1))) {
                                                 dy-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                         dirInicial=2;}
                 else
                 {
@@ -85,7 +61,7 @@ void RoboR2D2::generateSteps()
                     {
                         dx+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     }
                 }
                 break;
@@ -94,7 +70,7 @@ void RoboR2D2::generateSteps()
                 if(lab->isEmpty(Point(dx-1, dy))){
                                       dx-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     dirInicial=3;}
                 else
                 {
@@ -103,7 +79,7 @@ void RoboR2D2::generateSteps()
                     {
                         dy-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     }
                 }
                 break;
@@ -113,7 +89,6 @@ void RoboR2D2::generateSteps()
                     {
                         dy+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
                         dirInicial = 0;
                 }
                 else
@@ -123,7 +98,6 @@ void RoboR2D2::generateSteps()
                     {
                         dx-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
                     }
                 }
                 break;
@@ -131,7 +105,7 @@ void RoboR2D2::generateSteps()
         if(dx >= lab->getWidth() || dx < 0
                 || dy >= lab->getHeight() || dy < 0)
             saiu = true;
->>>>>>> 491a9608ced5ce3eeb076350667a9e4351f9a69f
+
 
     }
 }
