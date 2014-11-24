@@ -15,6 +15,7 @@ class RoboR2D2: public Robo {
         vector<Point> getSteps();
     private:
         TEX* roboTex; // id de textura do robo
+        int dirInicial;
 };
 
 #endif

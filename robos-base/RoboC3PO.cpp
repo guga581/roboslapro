@@ -10,7 +10,7 @@ using namespace std;
 RoboC3PO :: RoboC3PO(const Point& posIni, Labirinto *l, int maxSteps) : Robo(posIni, l, maxSteps)
 {
     srand(time(NULL));
-    roboTex = CarregaTextura("C3po.jpg", false);
+    roboTex = CarregaTextura("b9.jpg", false);
     dirInicial = rand()%4;
 
 }

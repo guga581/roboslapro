@@ -13,64 +13,34 @@ RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps)
 {
     srand(time(NULL));
     roboTex = CarregaTextura("b9.jpg", false);
+    dirInicial = 0;
 }
 
 void RoboR2D2::generateSteps()
 {
-    int cont = 1,ladoDx=0, ladoDy=1;
+    int cont = 1;
     bool saiu = false;
     int x = posIni.getX();
     int y = posIni.getY();
     steps.push_back(Point(x,y));
+    int dx, dy;
+    int pontx,ponty;
+    dx = x;
+    dy = y;
     while(!saiu && cont < maxSteps)
     {
-        int dx=0, dy=0;
-        if(lab->isEmpty(Point(x+ladoDx, y+ladoDy)))
+        if((!lab->isEmpty(Point(dx-1, dy))))
         {
-            dx+=ladoDx;
-            dy+=ladoDy;
+            dx-=1;
+            steps.push_back(Point(dx,dy));
+            pontx=-1;
+            ponty=0;
         }
-        else{
-            ladoDx=1;
-            ladoDy=0;
-            if(lab->isEmpty(Point(x+ladoDx, y+ladoDy))){
-                dx+=ladoDx;
-                dy+=ladoDy;
-            }
-            else{
-                ladoDx=0;
-                ladoDy=-1;
-                if(lab->isEmpty(Point(x+ladoDx, y+ladoDy))){
-                    dx+=ladoDx;
-                    dy+=ladoDy;
-                }
-                else{
-                    ladoDx=-1;
-                    ladoDy=0;
-                     if(lab->isEmpty(Point(x+ladoDx, y+ladoDy))){
-                        dx+=ladoDx;
-                        dy+=ladoDy;
-                    }
-                    else{
-                        ladoDx=0;
-                        ladoDy=1;
-                         if(lab->isEmpty(Point(x+ladoDx, y+ladoDy)))
-                            {
-                                dx+=ladoDx;
-                                dy+=ladoDy;
-                            }
-                    }
-                }
 
-            }
-        }
-        x += dx;
-        y += dy;
-        steps.push_back(Point(x, y));
-        cont++;
-        if(x >= lab->getWidth() || x < 0
-                || y >= lab->getHeight() || y < 0)
-            saiu = true;
+        if(dx >= lab->getWidth() || dx < 0
+                || dy >= lab->getHeight() || dy < 0)
+        saiu = true;
+
     }
 }
 
