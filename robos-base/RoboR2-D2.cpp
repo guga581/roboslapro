@@ -1,4 +1,3 @@
-
 #include "RoboR2-D2.h"
 #include "GL.h"
 
@@ -12,65 +11,104 @@ RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps)
     : Robo(posIni, l, maxSteps)
 {
     srand(time(NULL));
-    roboTex = CarregaTextura("b9.jpg", false);
+    roboTex = CarregaTextura("r2.jpg", false);
 }
 
 void RoboR2D2::generateSteps()
 {
-    int cont = 1,ladoDx=0, ladoDy=1;
+    int cont = 1;
     bool saiu = false;
     int x = posIni.getX();
     int y = posIni.getY();
     steps.push_back(Point(x,y));
+    int dx, dy;
+    dx = x;
+    dy = y;
+    dirInicial = 0;
     while(!saiu && cont < maxSteps)
     {
-        int dx=0, dy=0;
-        if(lab->isEmpty(Point(x+ladoDx, y+ladoDy)))
-        {
-            dx+=ladoDx;
-            dy+=ladoDy;
-        }
-        else{
-            ladoDx=1;
-            ladoDy=0;
-            if(lab->isEmpty(Point(x+ladoDx, y+ladoDy))){
-                dx+=ladoDx;
-                dy+=ladoDy;
-            }
-            else{
-                ladoDx=0;
-                ladoDy=-1;
-                if(lab->isEmpty(Point(x+ladoDx, y+ladoDy))){
-                    dx+=ladoDx;
-                    dy+=ladoDy;
-                }
-                else{
-                    ladoDx=-1;
-                    ladoDy=0;
-                     if(lab->isEmpty(Point(x+ladoDx, y+ladoDy))){
-                        dx+=ladoDx;
-                        dy+=ladoDy;
-                    }
-                    else{
-                        ladoDx=0;
-                        ladoDy=1;
-                         if(lab->isEmpty(Point(x+ladoDx, y+ladoDy)))
-                            {
-                                dx+=ladoDx;
-                                dy+=ladoDy;
-                            }
-                    }
-                }
 
+            switch (dirInicial)
+            {
+            case 0:
+                //vai para baixo
+                if(lab->isEmpty(Point(dx+1, dy))) {
+                        dx+=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                        dirInicial=1;}
+                else
+                {
+                    if(!lab->isEmpty(Point(dx, dy+1))) {dirInicial=3;}
+                    else
+                    {
+                        dy+=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                    }
+                }
+                break;
+            case 1:
+                //vai para esquerda(robo)
+                if(lab->isEmpty(Point(dx, dy-1))) {
+                                                dy-=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                        dirInicial=2;}
+                else
+                {
+                    if(!lab->isEmpty(Point(dx+1, dy))) {dirInicial=0;}
+                    else
+                    {
+                        dx+=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                    }
+                }
+                break;
+            case 2:
+                //vai para cima
+                if(lab->isEmpty(Point(dx-1, dy))){
+                                      dx-=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                    dirInicial=3;}
+                else
+                {
+                    if(!lab->isEmpty(Point(dx, dy-1))) {dirInicial=1;}
+                    else
+                    {
+                        dy-=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                    }
+                }
+                break;
+            case 3:
+                //vai para direita(robo)
+                if(lab->isEmpty(Point(dx, dy+1)))
+                    {
+                        dy+=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                        dirInicial = 0;
+                }
+                else
+                {
+                    if(!lab->isEmpty(Point(dx-1, dy))) {dirInicial=2;}
+                    else
+                    {
+                        dx-=1;
+                        steps.push_back(Point(dx,dy));
+                        cont++;
+                    }
+                }
+                break;
             }
-        }
-        x += dx;
-        y += dy;
-        steps.push_back(Point(x, y));
-        cont++;
-        if(x >= lab->getWidth() || x < 0
-                || y >= lab->getHeight() || y < 0)
+        if(dx >= lab->getWidth() || dx < 0
+                || dy >= lab->getHeight() || dy < 0)
             saiu = true;
+
     }
 }
 
