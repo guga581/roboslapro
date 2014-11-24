@@ -48,6 +48,8 @@
 		<Unit filename="Robo.h" />
 		<Unit filename="RoboB9.cpp" />
 		<Unit filename="RoboB9.h" />
+		<Unit filename="RoboR2-D2.cpp" />
+		<Unit filename="RoboR2-D2.h" />
 		<Unit filename="Texture.cpp" />
 		<Unit filename="Texture.h" />
 		<Unit filename="main.cpp" />
