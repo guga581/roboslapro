@@ -34,9 +34,43 @@ void RoboC3PO::generateSteps()
     int x = posIni.getX();
     int y = posIni.getY();
     steps.push_back(Point(x,y));
+    int dx, dy;
+    dx = x;
+    dy = y;
     while(!saiu && cont < maxSteps)
     {
-        switch dirInicial
+        switch (dirInicial){
+            case 0:
+                //vai para baixo
+                if(!lab->isEmpty(Point(dx+1, dy))){dirInicial+=1;}
+                else
+                {
+                    dx+=1;
+                    steps.push_back(Point(dx,dy));
+                    cont++;
+                }
+            case 1:
+                //vai para direita
+                if(!lab->isEmpty(Point(dx, dy+1))){dirInicial+=1;}
+                else
+                {
+                    dy+=1;
+                    steps.push_back(Point(dx,dy));
+                    cont++;
+                }
+            case 2:
+                //vai para cima
+                if(!lab->isEmpty(Point(dx-1, dy))){dirInicial+=1;}
+                else
+                {
+                    dy-=1;
+                    steps.push_back(Point(dx,dy));
+                    cont++
+                }
+            case 3:
+                //vai para baixo
+
+        }
 
     }
 }

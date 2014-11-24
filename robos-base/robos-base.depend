@@ -516,9 +516,10 @@
 	<fstream>
 	"Labirinto.h"
 
-1416840691 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/main.cpp
+1416843573 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/main.cpp
 	"LabirintoTeste.h"
 	"RoboB9.h"
+	"RoboC3PO.h"
 	"GL.h"
 
 1416839263 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboB9.h
@@ -571,7 +572,7 @@
 	<time.h>
 	<iostream>
 
-1416842387 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboC3PO.h
+1416843786 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboC3PO.h
 	"Labirinto.h"
 	"Robo.h"
 	"Texture.h"
