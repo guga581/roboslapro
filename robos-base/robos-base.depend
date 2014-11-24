@@ -426,19 +426,21 @@
 	"RoboB9.h"
 	"GL.h"
 
-<<<<<<< HEAD
+1381553385 D
+
 1416839263 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/GL.cpp
 	"GL.h"
 	<sstream>
 
 1416839263 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/GL.h
-=======
+
 1320060104 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/GL.cpp
 	"GL.h"
 	<sstream>
 
 1320060022 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/GL.h
->>>>>>> d933831b0816f9b63312f76caeae8acc07a29f20
+
+1416839361 3831b0816f9b63312f76caeae8acc07a29f20
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -447,6 +449,19 @@
 	<GL/glut.h>
 	"Labirinto.h"
 	"Robo.h"
+	"Texture.h"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+	<math.h>
+	<string.h>
+	<vector>
 	"Texture.h"
 
 1381553367 /usr/include/stdc-predef.h
@@ -465,7 +480,6 @@
 
 1381553386 /usr/include/bits/stdlib-float.h
 
-<<<<<<< HEAD
 1416839263 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/Labirinto.h
 	"Point.h"
 	<string>
@@ -477,7 +491,7 @@
 	"Point.h"
 
 1416839263 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/Texture.h
-=======
+
 1320013432 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Labirinto.h
 	"Point.h"
 	<string>
@@ -489,15 +503,7 @@
 	"Point.h"
 
 1320024114 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Texture.h
->>>>>>> d933831b0816f9b63312f76caeae8acc07a29f20
-	<stdio.h>
-	<stdlib.h>
-	<string>
-	<GLUT/glut.h>
-	<GL/freeglut.h>
-	<jpeglib.h>
 
-<<<<<<< HEAD
 1416839263 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/LabirintoTeste.cpp
 	"LabirintoTeste.h"
 	<iostream>
@@ -512,10 +518,11 @@
 	"GL.h"
 
 1416839263 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboB9.h
-=======
-1416839688 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/main.cpp
+
+1416843912 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/main.cpp
 	"LabirintoTeste.h"
 	"RoboB9.h"
+	"RoboR2-D2.h"
 	"GL.h"
 
 1320026578 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/LabirintoTeste.h
@@ -523,14 +530,9 @@
 	"Labirinto.h"
 
 1320025878 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboB9.h
->>>>>>> d933831b0816f9b63312f76caeae8acc07a29f20
-	"Labirinto.h"
-	"Robo.h"
-	"Texture.h"
 
-<<<<<<< HEAD
 1416839263 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/Texture.cpp
-=======
+
 1320027304 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboB9.cpp
 	"RoboB9.h"
 	"GL.h"
@@ -539,22 +541,18 @@
 	<iostream>
 
 1320024172 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/Texture.cpp
->>>>>>> d933831b0816f9b63312f76caeae8acc07a29f20
-	<math.h>
-	<string.h>
-	<vector>
-	"Texture.h"
 
 1381553385 /usr/include/bits/math-finite.h
 
-<<<<<<< HEAD
 1416839263 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboB9.cpp
 	"RoboB9.h"
 	"GL.h"
 	<stdlib.h>
 	<time.h>
 	<iostream>
-=======
+
+1416839263 
+
 1416839361 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/LabirintoTeste.cpp
 	"LabirintoTeste.h"
 	<iostream>
@@ -562,5 +560,16 @@
 	<fstream>
 	<string>
 	<sstream>
->>>>>>> d933831b0816f9b63312f76caeae8acc07a29f20
+
+1416843754 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboR2-D2.cpp
+	"RoboR2-D2.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1416843267 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboR2-D2.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
 
