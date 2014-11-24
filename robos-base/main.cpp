@@ -1,10 +1,8 @@
 #include "LabirintoTeste.h"
 #include "RoboB9.h"
-<<<<<<< HEAD
 #include "RoboR2-D2.h"
-=======
 #include "RoboC3PO.h"
->>>>>>> 4745be5f130f069fb40c236aa661ea0540a233be
+
 #include "GL.h"
 
 using namespace std;
@@ -14,11 +12,11 @@ int main()
     GL::init();
     // Carga do labirinto
     Labirinto* lab = new LabirintoTeste();
-    lab->loadMaze("labirinto.txt");
+    lab->loadMaze("labirinto3.txt");
 
     Point posIni = lab->getIniPos();
     cout << "Pos ini: " << posIni.getX() << " , " << posIni.getY() << endl;
-    RoboR2D2* robo = new RoboR2D2(posIni, lab, 200); // 200 passos no maximo
+    RoboC3PO* robo = new RoboC3PO(posIni, lab, 200); // 200 passos no maximo
 
     GL::setLabirintoRobo(lab, robo);
 	// Inicializa janela grafica e inicia programa
