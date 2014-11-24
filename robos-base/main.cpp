@@ -1,6 +1,12 @@
 #include "LabirintoTeste.h"
 #include "RoboB9.h"
+<<<<<<< HEAD
+
 #include "RoboR2-D2.h"
+
+=======
+#include "RoboR2-D2.h"
+>>>>>>> b5115e40f3ff650e456b60bdd873ad0cdd57143c
 #include "RoboC3PO.h"
 
 #include "GL.h"
