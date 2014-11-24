@@ -1,0 +1,143 @@
+# depslib dependency file v1.0
+1385981032 source:d:\media\desktop\robos-base\gl.cpp
+	"GL.h"
+	<sstream>
+
+1385981032 d:\media\desktop\robos-base\gl.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1320031136 d:\media\desktop\robos-base\include\gl\glut.h
+	"freeglut.h"
+
+1320031136 d:\media\desktop\robos-base\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1320031136 d:\media\desktop\robos-base\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1320031136 d:\media\desktop\robos-base\include\gl\freeglut_ext.h
+
+1385901148 d:\media\desktop\robos-base\labirinto.h
+	"Point.h"
+	<string>
+
+1320017046 d:\media\desktop\robos-base\point.h
+
+1385981032 d:\media\desktop\robos-base\robo.h
+	<vector>
+	"Point.h"
+
+1385981032 d:\media\desktop\robos-base\texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1320031136 d:\media\desktop\robos-base\include\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1320031136 d:\media\desktop\robos-base\include\jconfig.h
+
+1320031136 d:\media\desktop\robos-base\include\jmorecfg.h
+
+1320031136 d:\media\desktop\robos-base\include\jerror.h
+
+1385981032 source:d:\media\desktop\robos-base\labirintoteste.cpp
+	"LabirintoTeste.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sstream>
+
+1385981032 d:\media\desktop\robos-base\labirintoteste.h
+	<fstream>
+	"Labirinto.h"
+
+1385981081 source:d:\media\desktop\robos-base\main.cpp
+	"LabirintoTeste.h"
+	"R2D2.h"
+	"GL.h"
+	"C3po.h"
+	"Walle.h"
+
+1320029478 d:\media\desktop\robos-base\robob9.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1385876062 source:d:\media\desktop\robos-base\robob9.cpp
+	"RoboB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1385981032 source:d:\media\desktop\robos-base\texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
+1385981032 d:\media\desktop\robos-base\c3po.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1385981032 source:d:\media\desktop\robos-base\c3po.cpp
+	"C3po.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1385977474 source:d:\media\desktop\robos-base\r2d2.cpp
+	"R2D2.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1385981032 d:\media\desktop\robos-base\r2d2.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1385958481 source:d:\media\desktop\robos-base\arvore.cpp
+	<iostream>
+	<vector>
+	"Arvore.h"
+
+1385981032 d:\media\desktop\robos-base\arvore.h
+	<iostream>
+	<vector>
+
+1385980916 source:d:\media\desktop\robos-base\walle.cpp
+	"Walle.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1385974239 d:\media\desktop\robos-base\walle.h
+	"Arvore.h"
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
