@@ -8,7 +8,7 @@
 using namespace std;
 
 RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps)
-    : Robo(posIni, l, maxSteps)
+    : Robo(posIni, l, NULL)
 {
     srand(time(NULL));
     roboTex = CarregaTextura("r2.jpg", false);
