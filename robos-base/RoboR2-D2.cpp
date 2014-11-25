@@ -7,7 +7,11 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps)
+=======
+RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l)
+>>>>>>> 7bca2a40ea796e1b860aadde37fef2d234a3b1d0
     : Robo(posIni, l, NULL)
 {
     srand(time(NULL));
@@ -16,7 +20,6 @@ RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps)
 
 void RoboR2D2::generateSteps()
 {
-    int cont = 1;
     bool saiu = false;
     int x = posIni.getX();
     int y = posIni.getY();
@@ -25,7 +28,7 @@ void RoboR2D2::generateSteps()
     dx = x;
     dy = y;
     dirInicial = 0;
-    while(!saiu && cont < maxSteps)
+    while(!saiu)
     {
 
             switch (dirInicial)
@@ -35,7 +38,7 @@ void RoboR2D2::generateSteps()
                 if(lab->isEmpty(Point(dx+1, dy))) {
                         dx+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                         dirInicial=1;}
                 else
                 {
@@ -44,7 +47,7 @@ void RoboR2D2::generateSteps()
                     {
                         dy+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     }
                 }
                 break;
@@ -53,7 +56,7 @@ void RoboR2D2::generateSteps()
                 if(lab->isEmpty(Point(dx, dy-1))) {
                                                 dy-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                         dirInicial=2;}
                 else
                 {
@@ -62,7 +65,7 @@ void RoboR2D2::generateSteps()
                     {
                         dx+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     }
                 }
                 break;
@@ -71,7 +74,7 @@ void RoboR2D2::generateSteps()
                 if(lab->isEmpty(Point(dx-1, dy))){
                                       dx-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     dirInicial=3;}
                 else
                 {
@@ -80,7 +83,7 @@ void RoboR2D2::generateSteps()
                     {
                         dy-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
+
                     }
                 }
                 break;
@@ -90,7 +93,6 @@ void RoboR2D2::generateSteps()
                     {
                         dy+=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
                         dirInicial = 0;
                 }
                 else
@@ -100,7 +102,6 @@ void RoboR2D2::generateSteps()
                     {
                         dx-=1;
                         steps.push_back(Point(dx,dy));
-                        cont++;
                     }
                 }
                 break;
@@ -108,6 +109,7 @@ void RoboR2D2::generateSteps()
         if(dx >= lab->getWidth() || dx < 0
                 || dy >= lab->getHeight() || dy < 0)
             saiu = true;
+
 
     }
 }
