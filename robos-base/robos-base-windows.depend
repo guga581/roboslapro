@@ -141,3 +141,124 @@
 	"Robo.h"
 	"Texture.h"
 
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\gl.cpp
+	"GL.h"
+	<sstream>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\gl.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\gl\glut.h
+	"freeglut.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\gl\freeglut_ext.h
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\labirinto.h
+	"Point.h"
+	<string>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\point.h
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\robo.h
+	<vector>
+	"Point.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\jconfig.h
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\jmorecfg.h
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\jerror.h
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\labirintoteste.cpp
+	"LabirintoTeste.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sstream>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\labirintoteste.h
+	<fstream>
+	"Labirinto.h"
+
+1416868450 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\main.cpp
+	"LabirintoTeste.h"
+	"RoboB9.h"
+	"RoboR2-D2.h"
+	"RoboR2-D2.h"
+	"RoboC3PO.h"
+	"GL.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\robob9.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416865458 c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\robob9.cpp
+	"RoboB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1416868409 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.cpp
+	"RoboC3PO.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
+1416865458 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.cpp
+	"RoboR2-D2.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+

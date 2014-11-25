@@ -9,12 +9,13 @@ using namespace std;
 
 class RoboR2D2: public Robo {
 	public:
-        RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps);	// Construtor
+        RoboR2D2(const Point& posIni, Labirinto *l);	// Construtor
         void draw();
         void generateSteps();
         vector<Point> getSteps();
     private:
         TEX* roboTex; // id de textura do robo
+        int dirInicial;
 };
 
 #endif

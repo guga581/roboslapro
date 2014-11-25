@@ -426,7 +426,11 @@
 	"RoboB9.h"
 	"GL.h"
 
+<<<<<<< HEAD
 1416843786 D
+=======
+1416839263 D
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
 
 1416839263 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/GL.cpp
 	"GL.h"
@@ -525,15 +529,26 @@
 	<fstream>
 	"Labirinto.h"
 
-1416843573 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/main.cpp
+1416856352 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/main.cpp
 	"LabirintoTeste.h"
 	"RoboB9.h"
+	"RoboR2-D2.h"
 	"RoboC3PO.h"
 	"GL.h"
 
 1416839263 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboB9.h
 
+<<<<<<< HEAD
 1416839688 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/main.cpp
+=======
+1416850851 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/main.cpp
+	"LabirintoTeste.h"
+	"RoboB9.h"
+	"RoboR2-D2.h"
+	"RoboR2-D2.h"
+	"RoboC3PO.h"
+	"GL.h"
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
 
 1320026578 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/LabirintoTeste.h
 	<fstream>
@@ -576,6 +591,7 @@
 
 1416843754 .h"
 
+<<<<<<< HEAD
 1416842186 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboC3PO.cpp
 	"RoboC3PO.h"
 
@@ -635,16 +651,25 @@
 
 1416845406 source:/home/guga581/Documents/github/roboslapro/robos-base/RoboB9.cpp
 	"RoboB9.h"
+=======
+1416847085 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboC3PO.cpp
+	"RoboC3PO.h"
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
 	"GL.h"
 	<stdlib.h>
 	<time.h>
 	<iostream>
 
+<<<<<<< HEAD
 1416845406 /home/guga581/Documents/github/roboslapro/robos-base/RoboB9.h
+=======
+1416843786 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboC3PO.h
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
 	"Labirinto.h"
 	"Robo.h"
 	"Texture.h"
 
+<<<<<<< HEAD
 1416845406 source:/home/guga581/Documents/github/roboslapro/robos-base/Texture.cpp
 	<math.h>
 	<string.h>
@@ -659,19 +684,154 @@
 	"GL.h"
 
 1416845406 /home/guga581/Documents/github/roboslapro/robos-base/RoboR2-D2.h
+=======
+1416847788 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboR2-D2.h
 	"Labirinto.h"
 	"Robo.h"
 	"Texture.h"
 
+1416842387 016b7764017f97c1ea821d88343b9a6b061cb
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416848985 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboR2-D2.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416844731 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboC3PO.h
+
+1416839263 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/R2D2.cpp
+	"R2D2.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1416839263 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/R2D2.h
+
+1416856257 a9608ced5ce3eeb076350667a9e4351f9a69f
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1416847032 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboC3PO.cpp
+	"RoboC3PO.h"
+
+1416847032 h"
+
+1416856257 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboR2-D2.cpp
+	"RoboR2-D2.h"
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\gl.cpp
+	"GL.h"
+	<sstream>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\gl.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\labirinto.h
+	"Point.h"
+	<string>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\point.h
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\robo.h
+	<vector>
+	"Point.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\labirintoteste.cpp
+	"LabirintoTeste.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sstream>
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\labirintoteste.h
+	<fstream>
+	"Labirinto.h"
+
+1416864368 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\main.cpp
+	"LabirintoTeste.h"
+	"RoboB9.h"
+	"RoboR2-D2.h"
+	"RoboR2-D2.h"
+	"RoboC3PO.h"
+	"GL.h"
+
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\robob9.h
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+<<<<<<< HEAD
 1416845406 /home/guga581/Documents/github/roboslapro/robos-base/RoboC3PO.h
+=======
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.h
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
 	"Labirinto.h"
 	"Robo.h"
 	"Texture.h"
 
+<<<<<<< HEAD
 1416845406 source:/home/guga581/Documents/github/roboslapro/robos-base/RoboR2-D2.cpp
+=======
+1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.h
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\robob9.cpp
+	"RoboB9.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.cpp
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
 	"RoboR2-D2.h"
 	"GL.h"
 	<stdlib.h>
 	<time.h>
 	<iostream>
 
+<<<<<<< HEAD
+=======
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
+1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.cpp
+	"RoboC3PO.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+>>>>>>> ddb903fb265354deddd888e92a4d83ab16943e7c
