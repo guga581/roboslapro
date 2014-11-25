@@ -43,8 +43,11 @@
 		</Linker>
 		<Unit filename="GL.cpp" />
 		<Unit filename="GL.h" />
+		<Unit filename="Labirinto.h" />
 		<Unit filename="LabirintoTeste.cpp" />
 		<Unit filename="LabirintoTeste.h" />
+		<Unit filename="R2D2.cpp" />
+		<Unit filename="R2D2.h" />
 		<Unit filename="Robo.h" />
 		<Unit filename="RoboB9.cpp" />
 		<Unit filename="RoboB9.h" />

@@ -1,10 +1,7 @@
 #include "LabirintoTeste.h"
 #include "RoboB9.h"
-<<<<<<< HEAD
 #include "RoboR2-D2.h"
-=======
 #include "RoboC3PO.h"
->>>>>>> 4745be5f130f069fb40c236aa661ea0540a233be
 #include "GL.h"
 
 using namespace std;
