@@ -7,11 +7,9 @@
 
 using namespace std;
 
-<<<<<<< HEAD
-RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l, int maxSteps)
-=======
+
 RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l)
->>>>>>> 7bca2a40ea796e1b860aadde37fef2d234a3b1d0
+
     : Robo(posIni, l, NULL)
 {
     srand(time(NULL));
