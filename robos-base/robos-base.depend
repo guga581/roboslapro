@@ -14,7 +14,7 @@
 	"Robo.h"
 	"Texture.h"
 
-1381553386 /usr/include/stdlib.h
+1397298922 /usr/include/stdlib.h
 	<features.h>
 	<stddef.h>
 	<bits/waitflags.h>
@@ -22,11 +22,12 @@
 	<xlocale.h>
 	<sys/types.h>
 	<alloca.h>
+	<bits/stdlib-bsearch.h>
 	<bits/stdlib-float.h>
 	<bits/stdlib.h>
 	<bits/stdlib-ldbl.h>
 
-1381553367 /usr/include/features.h
+1397298905 /usr/include/features.h
 	<stdc-predef.h>
 	<sys/cdefs.h>
 	<gnu/stubs.h>
@@ -51,7 +52,7 @@
 1381553392 /usr/include/bits/waitstatus.h
 	<endian.h>
 
-1381553389 /usr/include/endian.h
+1397298924 /usr/include/endian.h
 	<features.h>
 	<bits/endian.h>
 	<bits/byteswap.h>
@@ -64,7 +65,7 @@
 	<bits/wordsize.h>
 	<bits/byteswap-16.h>
 
-1381553368 /usr/include/xlocale.h
+1397298906 /usr/include/xlocale.h
 
 1381553392 /usr/include/sys/types.h
 	<features.h>
@@ -83,7 +84,7 @@
 
 1381553392 /usr/include/bits/typesizes.h
 
-1381553390 /usr/include/time.h
+1397298926 /usr/include/time.h
 	<features.h>
 	<stddef.h>
 	<bits/time.h>
@@ -119,7 +120,7 @@
 1381553392 /usr/include/bits/pthreadtypes.h
 	<bits/wordsize.h>
 
-1381553387 /usr/include/alloca.h
+1397298922 /usr/include/alloca.h
 	<features.h>
 	<stddef.h>
 
@@ -138,15 +139,14 @@
 	<GL/glu.h>
 	<stdlib.h>
 
-1381415960 /usr/include/GL/gl.h
+1412165375 /usr/include/GL/gl.h
 	"gl_mangle.h"
-	<stdlib.h>
 	<windows.h>
 	<GL/glext.h>
 
-1381415960 /usr/include/GL/gl_mangle.h
+1412165375 /usr/include/GL/gl_mangle.h
 
-1381415960 /usr/include/GL/glext.h
+1412165375 /usr/include/GL/glext.h
 	<windows.h>
 	<stddef.h>
 	<inttypes.h>
@@ -156,23 +156,23 @@
 	<stdint.h>
 	<inttypes.h>
 
-1381553386 /usr/include/inttypes.h
+1397298922 /usr/include/inttypes.h
 	<features.h>
 	<stdint.h>
 	<stddef.h>
 
-1381553387 /usr/include/stdint.h
+1397298922 /usr/include/stdint.h
 	<features.h>
 	<bits/wchar.h>
 	<bits/wordsize.h>
 
 1381553390 /usr/include/bits/wchar.h
 
-1377762949 /usr/include/GL/glu.h
+1382363599 /usr/include/GL/glu.h
 	"glu_mangle.h"
 	<GL/gl.h>
 
-1377762949 /usr/include/GL/glu_mangle.h
+1382363599 /usr/include/GL/glu_mangle.h
 
 1320013431 /home/facin/Downloads/robos-base/Labirinto.h
 	"Point.h"
@@ -192,7 +192,7 @@
 	<GL/freeglut.h>
 	<jpeglib.h>
 
-1381553388 /usr/include/stdio.h
+1397298923 /usr/include/stdio.h
 	<features.h>
 	<stddef.h>
 	<bits/types.h>
@@ -205,7 +205,7 @@
 	<bits/stdio2.h>
 	<bits/stdio-ldbl.h>
 
-1381553388 /usr/include/libio.h
+1397298923 /usr/include/libio.h
 	<_G_config.h>
 	<stdarg.h>
 	<sys/cdefs.h>
@@ -213,13 +213,13 @@
 	<shlib-compat.h>
 	<bits/libio-ldbl.h>
 
-1381553388 /usr/include/_G_config.h
+1397298923 /usr/include/_G_config.h
 	<bits/types.h>
 	<stddef.h>
 	<wchar.h>
 	<gconv.h>
 
-1381553390 /usr/include/wchar.h
+1397298925 /usr/include/wchar.h
 	<features.h>
 	<stdio.h>
 	<stdarg.h>
@@ -233,7 +233,7 @@
 	<bits/wchar2.h>
 	<bits/wchar-ldbl.h>
 
-1381553395 /usr/include/wctype.h
+1397298930 /usr/include/wctype.h
 	<features.h>
 	<bits/types.h>
 	<wchar.h>
@@ -244,7 +244,7 @@
 
 1381553390 /usr/include/bits/wchar-ldbl.h
 
-1381553367 /usr/include/gconv.h
+1397298905 /usr/include/gconv.h
 	<features.h>
 	<wchar.h>
 	<stddef.h>
@@ -310,10 +310,10 @@
 
 1381553388 /usr/include/bits/sys_errlist.h
 
-1381553392 /usr/include/getopt.h
+1397298927 /usr/include/getopt.h
 	<ctype.h>
 
-1381553383 /usr/include/ctype.h
+1397298919 /usr/include/ctype.h
 	<features.h>
 	<bits/types.h>
 	<endian.h>
@@ -332,7 +332,7 @@
 1370385653 /usr/include/GL/freeglut_ext.h
 	<stdarg.h>
 
-1375029476 /usr/include/jpeglib.h
+1387485157 /usr/include/jpeglib.h
 	"jconfig.h"
 	"jmorecfg.h"
 	"jpegint.h"
@@ -340,11 +340,11 @@
 
 1273420340 /usr/include/jconfig.h
 
-1375029476 /usr/include/jmorecfg.h
+1387485157 /usr/include/jmorecfg.h
 
 1301374883 /usr/include/jpegint.h
 
-1375029476 /usr/include/jerror.h
+1387485157 /usr/include/jerror.h
 
 1320027135 source:/home/facin/Downloads/robos-base/LabirintoTeste.cpp
 	"LabirintoTeste.h"
@@ -372,7 +372,7 @@
 	<vector>
 	"Texture.h"
 
-1381553385 /usr/include/math.h
+1397298920 /usr/include/math.h
 	<features.h>
 	<bits/huge_val.h>
 	<bits/huge_valf.h>
@@ -404,7 +404,7 @@
 
 1381553385 /usr/include/bits/mathinline.h
 
-1381553389 /usr/include/string.h
+1397298924 /usr/include/string.h
 	<features.h>
 	<stddef.h>
 	<xlocale.h>
@@ -426,7 +426,27 @@
 	"RoboB9.h"
 	"GL.h"
 
-1416839263 D
+1416864367 D
+
+1416864367 903fb265354deddd888e92a4d83ab16943e7c
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+	"RoboR2-D2.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
 
 1416839263 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/GL.cpp
 	"GL.h"
@@ -464,8 +484,7 @@
 	<vector>
 	"Texture.h"
 
-1381553367 /usr/include/stdc-predef.h
-	<bits/predefs.h>
+1397298905 /usr/include/stdc-predef.h
 
 1381553413 /usr/include/gnu/stubs-64.h
 
@@ -569,7 +588,7 @@
 	<time.h>
 	<iostream>
 
-1416839263 
+1416845406 
 
 1416839361 source:/home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/LabirintoTeste.cpp
 	"LabirintoTeste.h"
@@ -586,15 +605,9 @@
 
 1416847085 source:/home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboC3PO.cpp
 	"RoboC3PO.h"
-	"GL.h"
-	<stdlib.h>
-	<time.h>
-	<iostream>
+	"RoboC3PO.h"
 
 1416843786 /home/PORTOALEGRE/14104165/DriveH/Github/roboslapro/robos-base/RoboC3PO.h
-	"Labirinto.h"
-	"Robo.h"
-	"Texture.h"
 
 1416847788 /home/PORTOALEGRE/14104109/DriveH/github/roboslapro/robos-base/RoboR2-D2.h
 	"Labirinto.h"
@@ -602,6 +615,77 @@
 	"Texture.h"
 
 1416842387 016b7764017f97c1ea821d88343b9a6b061cb
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416845406 source:/home/guga581/Documents/github/roboslapro/robos-base/GL.cpp
+	"GL.h"
+	<sstream>
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/GL.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cmath>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"Labirinto.h"
+	"Robo.h"
+	"Texture.h"
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/Labirinto.h
+	"Point.h"
+	<string>
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/Point.h
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/Robo.h
+	<vector>
+	"Point.h"
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/Texture.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+	<jpeglib.h>
+
+1416845406 source:/home/guga581/Documents/github/roboslapro/robos-base/LabirintoTeste.cpp
+	"LabirintoTeste.h"
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sstream>
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/LabirintoTeste.h
+	<fstream>
+	"Labirinto.h"
+
+1416845406 source:/home/guga581/Documents/github/roboslapro/robos-base/RoboB9.cpp
+	"RoboB9.h"
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/RoboB9.h
+
+1416845406 source:/home/guga581/Documents/github/roboslapro/robos-base/Texture.cpp
+	<math.h>
+	<string.h>
+	<vector>
+	"Texture.h"
+
+1416932888 source:/home/guga581/Documents/github/roboslapro/robos-base/main.cpp
+	"LabirintoTeste.h"
+	"RoboB9.h"
+	"RoboR2-D2.h"
+	"RoboC3PO.h"
+	"GL.h"
+
+1416932807 /home/guga581/Documents/github/roboslapro/robos-base/RoboR2-D2.h
 	"Labirinto.h"
 	"Robo.h"
 	"Texture.h"
@@ -693,14 +777,17 @@
 	"GL.h"
 
 1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\robob9.h
-	"Labirinto.h"
-	"Robo.h"
-	"Texture.h"
+
+1416845406 /home/guga581/Documents/github/roboslapro/robos-base/RoboC3PO.h
 
 1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.h
-	"Labirinto.h"
-	"Robo.h"
-	"Texture.h"
+
+1416932918 source:/home/guga581/Documents/github/roboslapro/robos-base/RoboR2-D2.cpp
+	"RoboR2-D2.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
 
 1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.h
 	"Labirinto.h"
@@ -715,11 +802,6 @@
 	<iostream>
 
 1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.cpp
-	"RoboR2-D2.h"
-	"GL.h"
-	<stdlib.h>
-	<time.h>
-	<iostream>
 
 1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\texture.cpp
 	<math.h>
@@ -728,6 +810,13 @@
 	"Texture.h"
 
 1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.cpp
+	"RoboC3PO.h"
+	"GL.h"
+	<stdlib.h>
+	<time.h>
+	<iostream>
+
+1416932807 source:/home/guga581/Documents/github/roboslapro/robos-base/RoboC3PO.cpp
 	"RoboC3PO.h"
 	"GL.h"
 	<stdlib.h>

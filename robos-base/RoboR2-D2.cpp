@@ -7,7 +7,9 @@
 
 using namespace std;
 
+
 RoboR2D2::RoboR2D2(const Point& posIni, Labirinto *l)
+
     : Robo(posIni, l, NULL)
 {
     srand(time(NULL));
