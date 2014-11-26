@@ -200,7 +200,7 @@
 
 1416864367 c:\users\rodrigo\documents\github\roboslapro\robos-base\include\jerror.h
 
-1416864367 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\labirintoteste.cpp
+1416972235 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\labirintoteste.cpp
 	"LabirintoTeste.h"
 	<iostream>
 	<cstdlib>
@@ -212,10 +212,9 @@
 	<fstream>
 	"Labirinto.h"
 
-1416868450 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\main.cpp
+1416972160 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\main.cpp
 	"LabirintoTeste.h"
 	"RoboB9.h"
-	"RoboR2-D2.h"
 	"RoboR2-D2.h"
 	"RoboC3PO.h"
 	"GL.h"
@@ -242,7 +241,7 @@
 	<time.h>
 	<iostream>
 
-1416868409 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.cpp
+1416971786 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\roboc3po.cpp
 	"RoboC3PO.h"
 	"GL.h"
 	<stdlib.h>
@@ -255,7 +254,7 @@
 	<vector>
 	"Texture.h"
 
-1416865458 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.cpp
+1416971178 source:c:\users\rodrigo\documents\github\roboslapro\robos-base\robor2-d2.cpp
 	"RoboR2-D2.h"
 	"GL.h"
 	<stdlib.h>

@@ -42,65 +42,91 @@ void RoboC3PO::generateSteps()
     {
         switch (dirInicial)
         {
-            case 0:
-                //vai para baixo
-                if(!lab->isEmpty(Point(dx, dy+1))){
-                        if(!lab->isEmpty(Point(dx+1, dy))){dirInicial=3;}
-                        else
-                        dirInicial=1;}
-                else
+        case 0: //o robo vai para a baixo
+            if(!lab->isEmpty(Point(dx, dy+1))) //verifica se bloco a frente do robo esta obstruido
+            {
+                if(!lab->isEmpty(Point(dx-1, dy))) //o bloco a frente do robo esta obstruido, verifica se a direita do robo esta obstruida
                 {
-                    dy+=1;
-                    steps.push_back(Point(dx,dy));
-                    cont++;
-                }
-                break;
-            case 1:
-                //vai para direita user
-                if(!lab->isEmpty(Point(dx+1, dy))){
-                        if(!lab->isEmpty(Point(dx, dy-1))){dirInicial=0;}
-                        else{
-                        dirInicial=2;}
+                    dirInicial = 1; // direita obstruida, manda o robo seguir para a esquerda
                 }
                 else
                 {
-                    dx+=1;
-                    steps.push_back(Point(dx,dy));
-                    cont++;
+                    dirInicial=3; // direita nao obstruida,  o robo segue a direita
                 }
-                break;
-            case 2:
-                //vai para cima
-                if(!lab->isEmpty(Point(dx, dy-1))){
-                        if(!lab->isEmpty(Point(dx-1, dy))){dirInicial = 1;}
-                        else{
-                        dirInicial=3;}
+            }
+            else //esquerda do robo esta livre, pode seguir o movimento
+            {
+                dy+=1;
+                steps.push_back(Point(dx,dy));
+                cont++;
+            }
+            break;
+            /*
+             *  Mantem a mesma logica anterior, apenas com pequenas alteracoes para a coerencia do robo
+             *
+             */
+        case 1: // Robo anda para a direita do usuario
+            if(!lab->isEmpty(Point(dx+1, dy)))
+            {
+                if(!lab->isEmpty(Point(dx, dy+1)))
+                {
+                    dirInicial=2;
                 }
                 else
                 {
-                    dy-=1;
-                    steps.push_back(Point(dx,dy));
-                    cont++;
+                    dirInicial = 0;
                 }
-                break;
-            case 3:
-                //vai para esquerda user
-                if(!lab->isEmpty(Point(dx-1, dy))){
-                    if(!lab->isEmpty(Point(dx, dy+1))){dirInicial=2;}
-                        else{
-                        dirInicial = 0;}
+            }
+            else
+            {
+                dx+=1;
+                steps.push_back(Point(dx,dy));
+                cont++;
+            }
+            break;
+        case 2: //Robo esta subindo o labirinto
+            if(!lab->isEmpty(Point(dx, dy-1)))
+            {
+                if(!lab->isEmpty(Point(dx+1, dy)))
+                {
+                    dirInicial=3;
                 }
                 else
                 {
-                    dx-=1;
-                    steps.push_back(Point(dx,dy));
-                    cont++;
+                    dirInicial=1;
                 }
-                break;
+            }
+            else
+            {
+                dy-=1;
+                steps.push_back(Point(dx,dy));
+                cont++;
+            }
+            break;
+        case 3:// Robo segue a esquerda do usuario.
+            if(!lab->isEmpty(Point(dx-1, dy)))
+            {
+                if(!lab->isEmpty(Point(dx, dy-1)))
+                {
+                    dirInicial=0;
+                }
+                else
+                {
+                    dirInicial=2;
+                }
+
+            }
+            else
+            {
+                dx-=1;
+                steps.push_back(Point(dx,dy));
+                cont++;
+            }
+            break;
         }
         if(dx >= lab->getWidth() || dx < 0
                 || dy >= lab->getHeight() || dy < 0)
-        saiu = true;
+            saiu = true;
 
     }
 }
